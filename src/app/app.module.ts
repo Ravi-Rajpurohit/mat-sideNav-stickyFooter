@@ -4,7 +4,11 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
-import { MatSidenavModule, MatButtonToggleModule } from '@angular/material';
+import {
+  MatSidenavModule,
+  MatButtonToggleModule,
+  MatToolbarModule
+} from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
@@ -14,7 +18,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatSidenavModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
